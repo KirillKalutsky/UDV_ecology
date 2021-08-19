@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZkCnKCNCuhEyFSIIC12bJgVS8BLYuzfTj1jLvq7RXTi4tf7+B6V+pTyg1VIKkrVVq3POPArvHcTWEGXxtB7JaA==",
+  "success": true,
+  "projectFilePath": "D:\\c#\\UDV\\hac\\Crawler\\Crawler\\Crawler.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Asus\\.nuget\\packages\\htmlagilitypack\\1.11.36\\htmlagilitypack.1.11.36.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\instasharper\\1.4.82\\instasharper.1.4.82.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
