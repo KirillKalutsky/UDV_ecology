@@ -1,0 +1,19 @@
+﻿@model DataSources.Models.Publication
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Публикация Id: @Html.DisplayFor(model => model.Id)</h2>
+
+<p>
+    @Html.DisplayFor(model => model.Text)
+</p>
+
+<p>
+    @Html.DisplayFor(model => model.Date)
+</p>
+
+<p>
+    @Html.DisplayFor(model => model.URL)
+</p>

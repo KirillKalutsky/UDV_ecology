@@ -1,0 +1,28 @@
+﻿using Microsoft.EntityFrameworkCore;
+using ServiceStack.DataAnnotations;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DataSources.Models
+{
+    
+    public class Publication
+    {
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int Id { get; set; }
+        public string Geotag { get; set; }
+        public DataSource Source { get; set; }
+        //public string Name { get; set; }
+        public string Text { get; set; }
+        public DateTime Date { get; set; }
+
+        [Unique]
+        public string URL { get; set; }
+    }
+}
